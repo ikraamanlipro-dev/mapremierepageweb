@@ -1,22 +1,33 @@
 /*Intégration de la couleur sur des éléments html*/
 p{
     color: #ff0000;
+    text-align: center;/*cette ligne permet de centrer les paragraphes*/
+}
+#para1{
+    color:blue
 }
 h1{
     color: green;
 }
+
 ol{
     color: purple;
+    align:right
 }
+
 ul{
     color: blue;
+    align:right
 }
+
 dd{
     color: orange;
 }
+
 a{
     color: aqua;
 }
+
 img{
     color: darkred;
 }
