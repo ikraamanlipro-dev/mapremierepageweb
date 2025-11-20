@@ -1,0 +1,23 @@
+h1{
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family:'Montserrat';
+}
+
+p{
+    font-size: 1.1em;
+    font-family: 'Manrope';
+}
+
+ul{
+    font-size: 1em;
+}
+li{
+    font-size: 1em;
+    font-family: 'Manrope';
+}
+a{
+    font-size: 1em;
+    font-family: 'Manrope';
+    text-decoration:none;
+}

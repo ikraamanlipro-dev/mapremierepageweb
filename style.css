@@ -16,6 +16,7 @@ h2{
 }
 h3{
     text-align:center;
+    font-size: 1.6em;
     text-decoration: underline;/*Avec cette ligne je surligne mon titre de niveau 3*/
     color: darkblue;
 }
@@ -43,4 +44,6 @@ img{
 
 .rsma{
     color: blue;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
 }
