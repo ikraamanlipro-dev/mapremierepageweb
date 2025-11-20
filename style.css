@@ -47,3 +47,11 @@ img{
     font-size: larger;
     font-family:'Times New Roman', Times, serif;
 }
+
+body{
+    background-color: yellow;
+}
+
+div{
+    background-image: url(rsma_flag.webp);
+}
