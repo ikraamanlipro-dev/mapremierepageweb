@@ -2,6 +2,8 @@
 p{
     color: #ff0000;
     text-align: center;/*cette ligne permet de centrer les paragraphes*/
+    font-family:'roboto',sans-serif;/*cette ligne permet de changer le type de police  */
+    font-size:smaller;/*Cette ligne permet de régler la taille de police de mon texte*/
 }
 #para1{
     color:blue
@@ -9,14 +11,21 @@ p{
 h1{
     color: green;
 }
-
+h2{
+    align:center;
+}
+h3{
+    text-align:center;
+    text-decoration: underline;/*Avec cette ligne je surligne mon titre de niveau 3*/
+    color: darkblue;
+}
 ol{
     color: purple;
     align:right
 }
 
 ul{
-    color: blue;
+    color: skyblue;
     align:right
 }
 
@@ -30,4 +39,8 @@ a{
 
 img{
     color: darkred;
+}
+
+.rsma{
+    color: blue;
 }
