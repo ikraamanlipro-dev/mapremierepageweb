@@ -21,3 +21,17 @@ a{
     font-family: 'Manrope';
     text-decoration:none;
 }
+
+#voir{
+    border-style: solid;
+    border-right: 1px; 
+    border-bottom: 1px;
+    border: color #8e86b5;
+}
+
+#projet{
+    border-style: solid;
+    border-right: 1px; 
+    border-bottom: 1px;
+    border: color #8e86b5;
+}

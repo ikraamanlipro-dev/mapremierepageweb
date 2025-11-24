@@ -1,0 +1,31 @@
+div{
+    color: red;
+    background-color:aquamarine;/*On défini l'arrière plan en ajoutant du bleu */
+    /*border-style:dotted;/*Cette ligne permet de rajouter des bordure en fonction du type */
+   /* border-width: medium;/*Cette ligne permet de définir la taille de la bordure */
+
+    font-size: 1.33em;
+    text-align: center;
+
+    
+}
+
+#div1{
+    border-style:solid;/*Cette ligne permet de rajouter des bordure en fonction du type */
+    border-width: medium;
+}
+
+#div2{
+    border-style:double;/*Cette ligne permet de rajouter des bordure en fonction du type */
+    border-width: medium;
+}
+
+#div3{
+    border-style:dotted;/*Cette ligne permet de rajouter des bordure en fonction du type */
+    border-width: medium;
+}
+
+#div4{
+    border-style:dashed;/*Cette ligne permet de rajouter des bordure en fonction du type */
+    border-width: medium;
+}
