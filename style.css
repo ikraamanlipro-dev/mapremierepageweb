@@ -54,4 +54,5 @@ body{
 
 div{
     background-image: url(rsma_flag.webp);
+    background-repeat:no-repeat;
 }
