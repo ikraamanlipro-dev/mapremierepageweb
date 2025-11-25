@@ -6,7 +6,7 @@ p{
     font-size:smaller;/*Cette ligne permet de régler la taille de police de mon texte*/
 }
 #para1{
-    color:blue
+    color:blue;
 }
 h1{
     color: green;

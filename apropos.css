@@ -22,16 +22,11 @@ a{
     text-decoration:none;
 }
 
-#voir{
-    border-style: solid;
-    border-right: 1px; 
-    border-bottom: 1px;
-    border: color #8e86b5;
-}
 
-#projet{
+
+div{
     border-style: solid;
-    border-right: 1px; 
-    border-bottom: 1px;
+    border-left: 1px; 
+    border-top-style:inset;
     border: color #8e86b5;
 }
