@@ -14,7 +14,7 @@ div{
 #div1{
     border-style:solid;/*Cette ligne permet de rajouter des bordure en fonction du type */
     border-width: medium;
-    color: green;
+    color: rgb(153, 0, 230);
     border-radius: 25px 10px 45px 45px;
     height: 600px;/*ajustement de la hauteur à 600 pixel*/
     width: 750px;/*ajustement de la largeur à 750 pixel*/
@@ -40,4 +40,29 @@ div{
 #div4{
     border-style:dashed;/*Cette ligne permet de rajouter des bordure en fonction du type */
     border-width: medium;
+}
+
+
+.pierre{
+	height:95px;
+	width:100px;
+	border:solid;
+	color:purple;
+    background: linear-gradient(45deg, rgb(222, 42, 141), rgb(202, 0, 169));
+	background-color:rgb(153, 0, 250);
+    
+	
+	border-radius:30px 70px 70px 30px / 30px 58px 42px;
+	
+}
+
+.carton{
+    border: solid;
+    border-radius: 7px;
+    height: 150px;
+
+    width: 175px;
+    color: black;
+    background-color: aqua;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0);
 }
