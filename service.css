@@ -29,3 +29,29 @@ div{
     border-style:dashed;/*Cette ligne permet de rajouter des bordure en fonction du type */
     border-width: medium;
 }
+
+
+
+
+
+.petal {
+  width: 70px;
+  height: 50px;
+  background: linear-gradient(to bottom, #ff6b9d, #c44569); /* Dégradé rose */
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; /* Forme ovale courbée */
+  position: relative;
+  transform: rotate(-15deg); /* Inclinaison légère */
+}
+
+.petal::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 80px;
+  height: 130px;
+  background: inherit;
+  border-radius: inherit;
+  transform: scale(0.9) rotate(5deg); /* Ajoute de la profondeur */
+  opacity: 0.8;
+}
