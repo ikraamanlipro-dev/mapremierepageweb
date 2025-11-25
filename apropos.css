@@ -25,8 +25,18 @@ a{
 
 
 div{
-    border-style: solid;
+    border: solid 1px ;
     border-left: 1px; 
-    border-top-style:inset;
-    border: color #8e86b5;
+    border-top-style:none;
+    border-color: #8e86b5;
+}
+
+#voir{
+    border: solid;
+    border-radius: 50px;
+}
+
+#projet{
+    border: solid;
+    border-radius: 50px;
 }
