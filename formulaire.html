@@ -6,19 +6,63 @@
     </head>
 
     <body>
+
         <h2>Formulaire d'inscription</h2>
 
-        <form action="/action_page.php">
+        <form>
+        <!-- Crée un formulaire -->
+        
         <label for="nom">Nom:</label><br>
-        <input type="text" id="nom" name="nom" value="Bacar"><br>
+        <!-- Étiquette pour le champ nom -->
+        <input type="text" id="nom" name="nom" value="Bacar"><br><br>
+        <!-- Champ de texte pour saisir le nom, avec une valeur par défaut -->
+        
         <label for="prenom">Prénom:</label><br>
-        <input type="text" id="" name="lname" value="Karim"><br>
-        <label for="dateDeNaissance">Date de naissance:</label>
-        <input type="date" id="date" name="date" value="14/12/2005"><br>
-        <label for="village">Village</label>
-        <input type="text" id="village" name="village" value="Mzoizia">
+        <!-- Étiquette pour le champ prénom -->
+        <input type="text" id="prenom" name="prenom" value="Karim"><br><br>
+        <!-- Champ de texte pour saisir le prénom, avec une valeur par défaut -->
+        
+        <!-- Label principale pour indiquer le champ de sélection du sexe -->
+        <label for="sexe">Sexe:</label><br>
+        <!-- Bouton radio pour sélectionner l'option "Homme", avec un id unique et un name partagé pour grouper les options -->
+        <input type="radio" id="homme" name="sexe" value="Homme">
+        <!-- Label associée au bouton radio "Homme" -->
+        <label for="homme">H</label><br>
+        <!-- Bouton radio pour sélectionner l'option "Femme", avec un id unique et le même name pour grouper -->
+        <input type="radio" id="femme" name="sexe" value="Femme">
+        <!-- Label associée au bouton radio "Femme"  -->
+        <label for="femme">F</label><br><br>
+
+        <!-- Label principale pour indiquer la section des disciplines à sélectionner -->
+        <label for="dicipline">Diciplines</label><br>
+        <!-- Case à cocher pour la discipline Mathématiques -->
+        <input type="checkbox" id="dicipline" name="dicipline" value="math">
+        <!-- Label associée à la case Math  -->
+        <label for="dicipline">Math</label><br>
+        <!-- Case à cocher pour la discipline Histoire/Géographie -->
+        <input type="checkbox" id="dicipline" name="dicipline" value="hist">
+        <!-- Label associée à la case Histoire/Geographie -->
+        <label for="dicipline">Histoire/Geographie</label><br>
+        <!-- Case à cocher pour la discipline Éducation Physique et Sportive (EPS) -->
+        <input type="checkbox" id="dicipline" name="dicipline" value="eps">
+        <!-- Label associée à la case EPS -->
+        <label for="dicipline">EPS</label><br><br>
+
+
+        
+        <label for="dateDeNaissance">Date de naissance:</label><br>
+        <!-- Étiquette pour le champ date -->
+        <input type="datetime" id="date" name="date" value="14/12/2005"><br><br>
+        <!-- Champ de sélection de date, avec une valeur par défaut -->
+        
+        <label for="village">Village</label><br>  
+        <!-- Étiquette pour le champ village -->
+        <input type="text" id="village" name="village" value="Mzouazia">
+        <!-- Champ de texte pour saisir le village, avec une valeur par défaut -->
         <br><br>
+        
         <input type="submit" value="Envoyer">
+        <!-- Bouton pour soumettre le formulaire -->
         </form>
     
     </body>
