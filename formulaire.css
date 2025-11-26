@@ -1,0 +1,51 @@
+h2{
+    text-align: center;/*on aligne le titre de niveau de au centre de la page */
+}
+
+form{
+    background-color: bisque;
+}
+
+div{
+    font-size: small;/*ajustemment de la taille de la police */
+    margin-inline: 35px;
+    margin-left: 20px;
+}
+
+#div1{
+    text-align: center;/*on prend la partie du formulaire divisé au centre de la page */ 
+    text-indent: 50px;/*j'indente de 50 pixel */ 
+    height: 50px;
+    
+}
+
+#div2{
+    text-align: center;
+    
+}
+
+input[type=text]{/*on prend comme selecteur les input de type text*/
+    padding: 7px;/*ajoute de l'espace à l'intérieur de la balise <input>*/
+    margin: 5px;/*ajoute de l'espace en partant de la marge */
+    border: solid red 2px;/*j'ajoute des bordures solide de couleur rouge de 2 pixel */
+    border-radius: 3px;/**/
+}
+
+input[type=datetime]{
+    border: solid red 2px;/*j'ajoute des bordures solide de couleur rouge de 2 pixel */
+    border-radius: 3px;
+}
+
+input[type=submit]{/*on prend comme selecteur les input de type submit*/
+    margin: 15px;
+}
+
+input[type=email]{/*on prend comme selecteur les input de type email*/
+    padding: 7px;/*ajoute de l'espace à l'intérieur de la balise <input>*/
+    margin-left: 10px;/*ajoute de l'espace extérieur en partant de la marge */
+     border: solid red 2px;/*j'ajoute des bordures solide de couleur rouge de 2 pixel */
+    border-radius: 3px;
+}
+
+
+
