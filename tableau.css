@@ -1,10 +1,27 @@
-table,td,th{
-    border: solid 1px;
-    border-radius: 3px;
-    text-align: left;
-    padding: 8px;
+table{
+    background-color:antiquewhite; /*Changement de la couleur de l'arrière plan du tableau */
+    margin-left: 10px;  /* Ajoute une marge de 10px à gauche de l’ensemble du tableau */
 }
 
+table, td, th {
+    border: solid 1px; /* Applique une bordure de 1px solide à la table, aux cellules <td> et aux en-têtes <th> */
+    border-radius: 3px;  /* Arrondit les coins des bordures (3px) */
+    text-align: left; /* Aligne le texte à gauche dans les cellules */
+    padding: 8px; /* Ajoute un espace intérieur de 8px autour du contenu des cellules */
+    margin-left: 20px; /* Ajoute une marge de 20px à gauche de l’ensemble du tableau */
+}
+
+
 th{
-    color: green;
+    color: green; /*Changement de la couleur de la rangée de l'entête */
+}
+
+td{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Changement du font */
+}
+
+h1{
+    text-align: center; /*Allignement du titre de niveau 1 au centre de la page*/
+    text-decoration: underline; /*surlignement du titre de niveau 1 */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Changement du font */
 }
