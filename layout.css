@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Mise en forme de l'entête*/
+header{
+    background-color: #666;/*l'arrière plan est colorié en gris*/
+    padding: 17px;/*ajoute de l'espace à l'intérieur de la balise*/
+    text-align: center;/*allignement du text au centre*/
+    color: white;
+    font-size: 35px;/*changement de la taille de police*/
+
+}
+
+/*Mise en forme de section*/
+section{
+    /*Option d'affichage sur différente disposition/taille de l'écran*/
+    display:-webkit-flex;
+    display: flex;
+}
+
+nav{
+    -webkit-flex:1;
+    -ms-flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+
+/*Mise ne page de la liste ul de la balise nav*/
+nav ul{
+    list-style-type:none ;/*cette ligne retire les point de la liste*/
+    padding: 0;
+}
+
+/*Mise en forme de la vue article*/
+article{
+     -webkit-flex:3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: coral;
+    padding: 10px;
+}
+
+/*Mise en forme du pied de page <footer>*/
+footer{
+    text-align: center;
+    background-color: #777;
+    color: aliceblue;
+    padding: 17px;
+}
